@@ -1,0 +1,280 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Projects Gaurav Bhardwaj</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Home</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">About Me</a></li>
+							<li><a href="skills.html">Skills</a></li>
+							<li><a href="experience.html">Experience</a></li>
+							<li class="active"><a href="projects.html">Projects</a></li>
+							<li><a href="resources.html">Resources</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://twitter.com/Gauravsbhardwaj?lang=en" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.linkedin.com/in/gaurav-bhardwaj-44728467/" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/gauravcusp" target="_blank" class="icon fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Projects</h1>
+								</header>
+
+								<!-- Text stuff -->
+                                    Since my course is applied in nature, I've been working on various projects for every course.
+									<br>
+									<ul>
+                                      <li align="left"><a href="#homeless"><em>Location Optimization for Homeless Shelters</em></a></li>
+                                      <li align="left"><a href="#airbnb"><em>Effect of AirBnB on Property Market</em></a></li>
+                                      <li align="left"><a href="#livability"><em>Quantifying the Lumps of Livability in New York and New Jersey</em></a></li>
+                                      <li align="left"><a href="#lidar"><em>Assess the green spaces in Dublin city using LIDAR data (Hackathon)</em></a></li>
+                                      <li align="left"><a href="#boiler"><em>Study how Heating Oil Based Boilers and Greenhouse Gases affect the air quality of NYC</em></a></li>
+                                      <li align="left"><a href="#ilisten"><em>iListen - Customized Playlist for Every Mood (Hackathon)</em></a></li>
+                                      <li align="left"><a href="#gwr"><em>Hedonic Price Model to Explain Rent Prices in New York City</em></a></li>
+																			<li align="left"><a href="#spacetime"><em>Analyzing and Modeling Spatial Change – Space Time Geography</em></a></li>
+																			<li align="left"><a href="#imagery"><em>Detecting Change in Urban Extent and Density: Machine Learning of Land Use Classes Applied to Houston, Texas</em></a></li>
+																			<li align="left"><a href="#dataviz"><em>Rent Burden Dashboard: A Data Visualization Project</em></a></li>
+                                      <li align="left"><a href="#capstone"><em>Public Sentiment Measures towards Police from Social Media</em></a></li>
+
+                              </ul>
+
+                                <div class="homeless" align="justify">
+                        <p id="homeless">
+                                  <h3><em><b>Location Optimization for Homeless Shelters</b></em><br></h3>
+                          The motivation behind this project was the Mayor's aim to come up with 90 new homeless shelters across the city
+                                  and closing down the cluster homes and tertiary shleters. We made use of NYC open data portal and scarped some
+                                  data from webpages that wasn't available in tabular format. We considered some of the most important variables for our
+                                  model like proximity to transit system, distance from schools etc. We ran spatial analysis based on these variables and
+                                  assigned score to each zip code in New York City depending on the weight of individual variables. The final result was
+                                  a map that suggests which zip code would be most optimum for a new homeless shelter.
+
+                                  For more information on the project, here's a <a href="https://github.com/gauravcusp/Papers/blob/master/HomelessShelters_Analysis.pdf" target="_blank">link</a> to our project report.
+                                  </p>
+                              <a href="#nav">Back to top</a>
+                      </div>
+
+                      <div class="airbnb" align="justify">
+                        <p id="airbnb">
+                                  <h3><em><b>Effect of AirBnB on Property Market</b></em><br></h3>
+                          Through this project, we wanted to understand how AirBnB could affect the property market in New York City. Since there's
+                        always a debate in communities if having AirBnB in their neighborhood or not, we considered some important factors in determinig
+                        the correlation between the housing prices and and AirBnB listing numbers. We used data from DOF Annualized Rolling Sales, Inside Airbnb and
+                        PLUTO to create our model. Since the effect of listing cannot be constrained to a known region, we did buffer analysis
+                        on the airbnb listings go get some meaningful insights. The paper that we submitted for our project can be accessed through this <a href="https://github.com/gauravcusp/Papers/blob/master/Effect_of_AriBnB_on_Property.pdf" target="_blank">link.</a>
+
+                        </p>
+                      <a href="#nav">Back to top</a>
+                      </div>
+
+              <div class="livability" align="justify">
+                        <p id="livability">
+                                  <h3><em><b>Quantifying the Lumps of Livability in New York and New Jersey</b></em><br></h3>
+                          The project dealt with quantifying the spatial variables that make up for a livable neighborhood. Through this project,
+                we wanted to see how the variables of livability such as Education Level or Rent Burden are correlated with each other spatially. We analyzed
+                the census tracts in New York and New Jersey, and ran Global Moran's I and Anselin's Local Moran's I to analyze the correlation at global level (in this case, state level)
+                and also at local level(census tracts) for the two states. The analysis was carried out on ArcGIS software and the data was collected from AMerican Community Survey(5-Year).
+                Our analysis with images can be found <a href="https://github.com/gauravcusp/Papers/blob/master/Quantifying_Urban_Livability_Clusters.pdf" target="_blank">here.</a>
+                        </p>
+              <a href="#nav">Back to top</a>
+                      </div>
+
+                      <div class="lidar" align="justify">
+                        <p id="lidar">
+                                  <h3><em><b>Assess the green spaces in Dublin city using LIDAR data (Hackathon)</b></em><br></h3>
+                          This is by far one of the most interesting projects I've worked on. As part of a CUSP Hackathon, we were asked to assess and analyse
+        the chnages in green spaces across the city of Dublin. What was more exciting was the use of LIDAR data(courtesy Prof.Debra Laefer). Prof.Laefer has been working
+        for quite some time on LIDAR data collection for Dublin city and her <a href="https://www.nationalgeographic.com/magazine/2018/02/explore-lidar-imaging-technology-dublin/" target="_blank">work</a> was recently published by NatGeo.
+        Owing to the size of the dataset, we could only assess some portions of Dublin city and we were able to extract features that could show the difference
+        between two datasets collected from different time periods. To see the cool images from LIDAR data, please visit our <a href="https://github.com/gauravcusp/LIDAR_DublinHackathon" target="_blank">Github Page.</a>
+                        </p>
+      <a href="#nav">Back to top</a>
+                      </div>
+
+
+                    <div class="boiler" align="justify">
+                        <p id="boiler">
+                                  <h3><em><b>Study how Heating Oil Based Boilers and Greenhouse Gases affect the air quality of NYC<</b></em><br></h3>
+                          Every year as soon as the weather gets cold, we see a stream of black smoke arising from the buildings in New York
+                                    and since many building still use age old oil fuels to heat their buildings, it would be a good idea to study the
+                                    air quality in the winter months and see how these boiler emissions affect the environment. Coming up with a solution
+                                    for this question is not easy as it depends on multiple factors such as the type of oil being used, what building type
+                                    use these boilers (different laws apply for different building types), if the residents can afford the fuel prescribed by
+                                    the government etc. For my analysis, I studied the factors that cause increase in Green House Gases (GHG) and
+                                    how oil type contributes to it considering the socio-economic factors of the city. With some of the variables that deemed important
+                                    based my research and previous studies, I chose 5 crucial variables that can help in prediction of GHG emissions in the city. Further,
+                                    I considered some specific pollutants such as PM2.5, nitrogen dioxide and Sulphur dioxide that covers most part of pollution index of the city.
+                                    My project report can be accessed through this <a href="https://www.authorea.com/274888/w0_v2ckcD5rwQfRjXJrNfw" target="_blank">link.</a>
+                                    </p>
+                      <a href="#nav">Back to top</a>
+                      </div>
+
+                      <div class="ilisten" align="justify">
+                        <p id="ilisten">
+                                  <h3><em><b>iListen - Customized Playlist for Every Mood (Hackathon)</b></em><br></h3>
+                            iListen is a web application that aims at deciphering user emotion based on their song preference and potentially help people
+    through counseling who needs it. The reason why we are doing this is because, the fast paced lifestyle today has precipitated numerous negativities and sensitive emotions,
+    new technologies have gradually distanced people apart. By building a communication and counseling platform via music, we can re-create a smaller world. The app essentially
+    stores user prefernce for a trainig set of songs from Spotify and gives a score to each 'like' or 'dislike'. Based on user feedback, the scores for each song is re-weighted and
+    a customized playlist is presented to the user. A spotify player is embedded on our page so the user can listen to the playlist on our webpage itself. Go ahead and check out
+    our <a href="http://ilistenhacknyu.herokuapp.com/" target="_blank">application.</a>
+                        </p>
+                        <a href="#nav">Back to top</a>
+                      </div>
+
+                    <div class="gwr" align="justify">
+                        <p id="gwr">
+                                  <h3><em><b>Hedonic Price Model to Explain Rent Prices in New York City</b></em><br></h3>
+                            Buying a new house is always crucial as you need the best value for your money. For this, you consider a lot of varibales
+                      before finalizing the houe you would want to purchase. These varibales could be internal to the house such as number of bedrooms, square footage etc.
+                      as well as exteranl such as proximity to school and subway, safety of neighborhood etc. As one would assume, not all these variables are of
+                      equal inportance to a person. In this project, I combined a few such variables to create a hedonic price model for New York City. In general, when we run
+                      regression on our models, we fail to account for a very important feature, i.e. geography. To overcome this challenge, I used Geographically Weighted Regression(GWR)
+                     to treat sptail component as a variable and Spatially Adjusted Regression that gives different weights to each varibale based on their geography. My model
+                      explains 80% of the variance between the predicted and the expected values. For detailed analysis, you can access the report <a href="https://github.com/gauravcusp/Papers/blob/master/Project1_HedonicModel.pdf" target="_blank">here.</a>
+                        </p>
+                        <a href="#nav">Back to top</a>
+                      </div>
+
+													<div class="spacetime" align="justify">
+									<p id="spacetime">
+														<h3><em><b>Analyzing and Modeling Spatial Change – Space Time Geography</b></em><br></h3>
+														The Space-Time geography project was particularly interesting as until now I've had exposure to only the space constrained
+														movement data with no temporal effect. With this project, I was able to apply the third dimension of time to the movement data
+														and was able to create a 3-D visualization of how a person moves in space and time. Some intersting use cases that I found were in the
+														domain of traffic management, as during rush hours some of the streets are heavily crowded while others are comparatively vacant. With Space-Time
+														data for a city, we can visualize and predict alternative routes during such peak hours. Project report can be found <a href="https://github.com/gauravcusp/Papers/blob/master/SpaceTimeAnalysis_AdvancedGISProject.pdf" target="_blank">here</a>.
+										</p>
+												<a href="#nav">Back to top</a>
+
+												</div>
+
+
+															<div class="imagery" align="justify">
+											<p id="imagery">
+																<h3><em><b>Classifying Land Use Pattern using Satellite Imagery</b></em><br></h3>
+																The project was inspired by the Stanford's research on predicting poverty in Africa using night-time satellite imagery.
+																In this project, we study the land use pattern of different cities and analyse the change in land use over the years. Since we
+																	limited time, we focused on Houston,TX and studied the change in land use pattern over the years from 1993 to 2015 by using
+																	the satellite images from the years 1993, 2003,2007, 2011 and 2015. We trained a random forest model to classify high density urban,
+																low density urban, non-urban and water areas. The model was able to predict with good accuracy the high density and low density urban areas.
+																For detailed information on our analysis, here's a link to our <a href="https://github.com/gauravcusp/Papers/blob/master/LandUsePatternAnalysis_UsingSatelliteImagery.pdf" target="_blank">paper</a>.
+												</p>
+														<a href="#nav">Back to top</a>
+
+										</div>
+
+
+										<div class="dataviz" align="justify">
+											<p id="dataviz">
+																<h3><em><b>Rent Burden Dashboard: A Data Visualization Project</b></em><br></h3>
+												It's no news that everyone living in one of the metro cities across the world is paying hefty amounts of money
+												to rent a housing unit. But in recent years, the situation has gone from bad to worse, since by 2014 nearly half of the US population
+												was living under rent burden. We wanted to quantify and visualize the trends across the major cities of the US and therefore,
+											we created a <a href="https://dorukkilitcioglu.shinyapps.io/RentBurden/" target="_blank">dashboard</a> using R-Shiny, that displays time series graphs for rent price, change in median rent price and a time lapse
+											for 10 cities across US over the period of 8 years, 2009 to 2016.
+
+											</p>
+										<a href="#nav">Back to top</a>
+										</div>
+
+                      <div class="capstone" align="justify">
+                        <p id="capstone">
+                                  <h3><em><b>Capstone: Public Sentiment Measures towards Police from Social Media</b></em><br></h3>
+                            Community support plays a crucial role in the effectiveness of prosecutorial justice sector and law enforcement. However, measuring public sentiments towards relevant policy implementations is difficult. Conventional methods are labor-intensive, time-lagged, and not scalable. Alternatively, we investigate the viability and strategies of leveraging social network services to assess public sentiments in a massive, timely, and effective manner. Focusing on Twitter, we first evaluate strategies to harvest relevant tweets and mitigate contamination. This includes keywords selection and streaming pipeline modification. Then, using the collected tweets regarding prosecutorial justice departments at both local and national levels, we assess whether a sentiment baseline exists based on the positive, neutral, or negative sentiments perceived by existing Natural Language Processing models. Finally, we investigate geographical and longitudinal variations in sentiments. The results show that measuring such sentiments is challenging. First, Twitter’s free Streaming API is not ideal qualitatively nor quantitatively for collecting the desired data. Second, the data is highly contaminated due to the inevitably ambiguous keywords. Finally, most tweets appear either neutral or slightly negative in the two models respectively. However, it is possible to observe and compare longitudinal trends and changes instead of absolute values. Recommendations for similar research pipeline are then concluded.
+														<br>
+														Here's a <a href="https://cuspcapstones.github.io/Public-Sentiment-Measures-of-prosecutorial-justice-from-Social-Media_2018/">link</a> to the project webpage.
+                        </p>
+                          <a href="#nav">Back to top</a>
+                      </div>
+											<br>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="field">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" />
+								</div>
+								<div class="field">
+									<label for="email">Email</label>
+									<input type="text" name="email" id="email" />
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="3"></textarea>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>221 Quincy Street<br />
+								Brooklyn, NY 11216</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p>(929) 372-5654</p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p>gauravsbhardwaj@nyu.edu</p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://twitter.com/Gauravsbhardwaj?lang=en" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.linkedin.com/in/gaurav-bhardwaj-44728467/" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/gauravcusp" target="_blank" class="icon fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; GauravBhardwaj</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
